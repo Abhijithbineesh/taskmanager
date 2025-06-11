@@ -3,7 +3,7 @@
 import { useQuery, gql, useMutation } from '@apollo/client';
 import client from '@/lib/apollo-client';
 import Link from 'next/link';
-import StatusDropdown from '@/components/StatusDropdown';
+import StatusDropdown from "@/components/statusDropdown";
 
 const GET_TASKS = gql`
   query {
